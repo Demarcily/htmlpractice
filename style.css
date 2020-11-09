@@ -11,7 +11,7 @@ body {
 
 main {
   margin: 0 auto;
-  width: 70%;
+  width: 60%;
   background-color: white;
   padding: 2rem;
 }
@@ -20,6 +20,7 @@ img {
   float: right;
   margin-left: 1rem;
   margin-bottom: 1rem;
+  border: solid 4px black;
 }
 
 ul {
@@ -27,7 +28,7 @@ ul {
 }
 
 li {
-  margin: 0 1rem;
+  margin: 0 1.2rem;
   list-style: none;
 }
 
@@ -42,5 +43,12 @@ footer {
   margin-top: auto;
   background-color: lightblue;
   padding: 0.5rem;
+}
 
+section {
+  margin-bottom: 5rem;
+}
+
+img.spimg {
+  border: solid 4px black;
 }
