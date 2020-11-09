@@ -6,11 +6,14 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  background-color: #edf4ff;
 }
 
 main {
   margin: 0 auto;
   width: 70%;
+  background-color: white;
+  padding: 2rem;
 }
 
 img {
@@ -25,9 +28,19 @@ ul {
 
 li {
   margin: 0 1rem;
+  list-style: none;
 }
 
 nav {
   background-color: lightblue;
   display: flex;
+  padding: 0.5rem;
+  font-size: 1.4rem;
+}
+
+footer {
+  margin-top: auto;
+  background-color: lightblue;
+  padding: 0.5rem;
+
 }
